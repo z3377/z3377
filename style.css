@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600;10..48,700;10..48,800&family=Oswald:wght@400;500;600;700&family=PT+Sans+Narrow:wght@400;700&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+
+
+
+body {
+  /* background-color: #add5fa; */
+  /* background: linear-gradient(to right, #add5fa, #c3f8ff); */
+  background: linear-gradient(to right, #c3f8ff, #add5fa);
+  color: black;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Oswald{
+  font-family: Oswald;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Estilo para el pie de página */
+footer {
+  background-color: #343a40;
+  /* Color de fondo del pie de página */
+  color: white;
+  /* Color del texto en el pie de página */
+  padding: 8px 0;
+}
+
+.espacio-abajo {
+  margin-bottom: 20px;
+}
+
+.centrado-vertical {
+  margin-top: 50%;
+}
+
+h1 {
+  /* color: #9b9b9b; */
+  /* text-align: center; */
+  font-family: Bricolage Grotesque;
+}
+
+h3 {
+  font-family: PT Sans Narrow;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+/* #footer-img{
+  width: 40px !important;
+  height: auto;
+} */
+
+.texto-justificado {
+  text-align: justify;
+}
+
+.letra-400 {
+  font-size: 400 !important;
+}
+
+.letra-500 {
+  font-size: 500 !important;
+}
+
+.letra-700 {
+  font-size: 700 !important;
+}
+
+.square-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 156px;
+  height: 42px;
+  border-radius: 0;
+  background-color: #7ecaec;
+}
+
+.square-btn:hover {
+  background-color: white;
+  /* color: #7ecaec; */
+}
+
+.tamanho-michi {
+  width: 125%;
+}
+
+.foto-cuadro-michi {
+  width: 300px;
+  height: 300px;
+}
+
+a {
+  font-family: Bricolage Grotesque;
+  font-style: bold;
+  color: #293957;
+
+  /* color: inherit !important; Mantener el color de texto predeterminado */
+  /* text-decoration: none !important; Eliminar subrayado */
+  /* transition: color 0.2s !important; Agregar una transición suave al color */
+}
+
+#enlaces {
+  color: inherit !important;
+  /* Mantener el color de texto predeterminado */
+  text-decoration: none !important;
+  /* Eliminar subrayado */
+  transition: color 0.2s !important;
+  /* Agregar una transición suave al color */
+}
+
+.back-button {
+  position: fixed;
+  bottom: 7px;
+  right: 20px;
+  background-color: #e8eaef;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 999999;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: black;
+  /* color: #7ecaec; */
+}
+
+@media (max-width: 500px) {
+  body {
+    /* background-color: #add5fa; */
+    /* background: linear-gradient(to right, #add5fa, #c3f8ff); */
+    background: linear-gradient(to right, #c3f8ff, #add5fa);
+    background: #add5fa;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .centrado-vertical {
+    margin-top: 10%;
+  }
+
+  .tamanho-michi {
+    width: 100%;
+  }
+
+  .espaciado-columnas {
+    margin-bottom: 40px;
+  }
+
+}

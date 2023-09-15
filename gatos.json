@@ -1,0 +1,345 @@
+[
+  {
+    "color": "Negro",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-bombay-239x300.png",
+    "raza": "Bombay"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/toyger.jpg",
+    "raza": "Toyger"
+  },
+  {
+    "color": "Negro",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/gato_levkoy-gris.jpg",
+    "raza": "Levkoy Ucraniano"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 7,
+    "imagen": "imagenes/gatos_de_la_galeria/istockphoto-467801366-612x612.jpg",
+    "raza": "Scottish Fold"
+  },
+  {
+    "color": "Tricolor",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/CAT BREED Hero Mobile_0023_La_perms_OG.jpg",
+    "raza": "Laperm"
+  },
+  {
+    "color": "Sin Pelaje",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-peterbald_643_0_orig.jpg",
+    "raza": "Peterbald"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 6,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-bobtail-americano.jpg",
+    "raza": "American Bobtail"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/images.jpeg",
+    "raza": "Aegean"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "si",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/british-longhair.jpg",
+    "raza": "British Longhair"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-curl-americano.jpg_1902800913.webp",
+    "raza": "American Curl"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/images (1).jpeg",
+    "raza": "American Shorthair"
+  },
+  {
+    "color": "Tricolor",
+    "condicionMedica": "si",
+    "edad": 7,
+    "imagen": "imagenes/gatos_de_la_galeria/images (2).jpeg",
+    "raza": "American Wirehair"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/1609223413_431_Imagenes-caracteristicas-y-hechos-de-la-raza-de-gato-arabe.jpg",
+    "raza": "Arabian Mau"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/images (3).jpeg",
+    "raza": "Australian Mist"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/g-raza-balines.html.jpg",
+    "raza": "Balinese"
+  },
+  {
+    "color": "Sin Pelaje",
+    "condicionMedica": "si",
+    "edad": 1,
+    "imagen": "imagenes/gatos_de_la_galeria/Bambino.jpg",
+    "raza": "Bambino"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/Birman-3-3-3 (1).webp",
+    "raza": "Birman"
+  },
+  {
+    "color": "Negro",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-bombay-negro.webp",
+    "raza": "Bombay"
+  },
+  {
+    "color": "Griz",
+    "condicionMedica": "si",
+    "edad": 1,
+    "imagen": "imagenes/gatos_de_la_galeria/british-shorthair.jpg",
+    "raza": "British Shorthair"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "no",
+    "edad": 5,
+    "imagen": "imagenes/gatos_de_la_galeria/razas-de-gatos_-el-gato-burmes.jpg",
+    "raza": "Burmese"
+  },
+  {
+    "color": "Blanco",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "imagenes/gatos_de_la_galeria/gatos-burmilla_-caracteristicas-y-cuidados-de-la-raza.jpg",
+    "raza": "Burmilla"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "si",
+    "edad": 7,
+    "imagen": "imagenes/gatos_de_la_galeria/California-Spangled.jpg",
+    "raza": "California Spangled"
+  },
+  {
+    "color": "Negro",
+    "condicionMedica": "no",
+    "edad": 1,
+    "imagen": "imagenes/gatos_de_la_galeria/Tiffany-33.webp",
+    "raza": "Chantilly-Tiffany"
+  },
+  {
+    "color": "Griz",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-chartreux.jpg",
+    "raza": "Chartreux"
+  },
+  {
+    "color": "Sin Pelaje",
+    "condicionMedica": "si",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/Minskin.jpg.webp",
+    "raza": "Peterbald"
+  },
+  {
+    "color": "Griz",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "imagenes/gatos_de_la_galeria/j6oFGLpRG.jpg",
+    "raza": "Chartreux"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "no",
+    "edad": 6,
+    "imagen": "imagenes/gatos_de_la_galeria/TR-5nAd_S.jpg",
+    "raza": "Chantilly-Tiffany"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "si",
+    "edad": 7,
+    "imagen": "imagenes/gatos_de_la_galeria/1609412186_201_Informacion-imagenes-caracteristicas-y-hechos-de-la-raza-de-gato.jpg",
+    "raza": "Laperm"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "si",
+    "edad": 2,
+    "imagen": "https://cdn2.thecatapi.com/images/B1ERTmgph.jpg",
+    "raza": "California Spangled"
+  },
+  {
+    "color": "Blanco",
+    "condicionMedica": "no",
+    "edad": 1,
+    "imagen": "https://cdn2.thecatapi.com/images/jvg3XfEdC.jpg",
+    "raza": "Burmilla"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "no",
+    "edad": 7,
+    "imagen": "https://cdn2.thecatapi.com/images/4lXnnfxac.jpg",
+    "raza": "Burmese"
+  },
+  {
+    "color": "Griz",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "https://cdn2.thecatapi.com/images/s4wQfYoEk.jpg",
+    "raza": "British Shorthair"
+  },
+  {
+    "color": "Negro",
+    "condicionMedica": "no",
+    "edad": 1,
+    "imagen": "https://cdn2.thecatapi.com/images/5iYq9NmT1.jpg",
+    "raza": "Bombay"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg",
+    "raza": "Birman"
+  },
+  {
+    "color": "Negro - Blanco",
+    "condicionMedica": "no",
+    "edad": 3,
+    "imagen": "https://cdn2.thecatapi.com/images/5AdhMjeEu.jpg",
+    "raza": "Bambino"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "si",
+    "edad": 12,
+    "imagen": "imagenes/gatos_de_la_galeria/image.jpg",
+    "raza": "Snowshoe"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 1,
+    "imagen": "https://cdn2.thecatapi.com/images/13MkvUreZ.jpg",
+    "raza": "Balinese"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "https://cdn2.thecatapi.com/images/_6x-3TiCA.jpg",
+    "raza": "Australian Mist"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "si",
+    "edad": 1,
+    "imagen": "https://cdn2.thecatapi.com/images/k71ULYfRr.jpg",
+    "raza": "Arabian Mau"
+  },
+  {
+    "color": "Tricolor",
+    "condicionMedica": "si",
+    "edad": 3,
+    "imagen": "https://cdn2.thecatapi.com/images/8D--jCd21.jpg",
+    "raza": "American Wirehair"
+  },
+  {
+    "color": "Negro - Blanco",
+    "condicionMedica": "si",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/gato-scottish-fold-1-ano-edad_191971-5025.avif",
+    "raza": "Scottish Fold"
+  },
+  {
+    "color": "Naranja",
+    "condicionMedica": "si",
+    "edad": 6,
+    "imagen": "imagenes/gatos_de_la_galeria/l3 (1).jpg",
+    "raza": "Levkoy Ucraniano"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 12,
+    "imagen": "imagenes/gatos_de_la_galeria/14053951_1097890816913321_2370358232672756525_n.jpg",
+    "raza": "Snowshoe"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "si",
+    "edad": 4,
+    "imagen": "imagenes/gatos_de_la_galeria/images (4).jpeg",
+    "raza": "Toyger"
+  },
+  {
+    "color": "Negro - Blanco",
+    "condicionMedica": "no",
+    "edad": 8,
+    "imagen": "https://cdn2.thecatapi.com/images/JFPROfGtQ.jpg",
+    "raza": "American Shorthair"
+  },
+  {
+    "color": "Naranja - Blanco",
+    "condicionMedica": "no",
+    "edad": 1,
+    "imagen": "https://cdn2.thecatapi.com/images/xnsqonbjW.jpg",
+    "raza": "American Curl"
+  },
+  {
+    "color": "Marron",
+    "condicionMedica": "no",
+    "edad": 5,
+    "imagen": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg",
+    "raza": "British Longhair"
+  },
+  {
+    "color": "Marron - Blanco",
+    "condicionMedica": "no",
+    "edad": 2,
+    "imagen": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg",
+    "raza": "Aegean"
+  },
+  {
+    "color": "Tabby",
+    "condicionMedica": "no",
+    "edad": 4,
+    "imagen": "https://cdn2.thecatapi.com/images/hBXicehMA.jpg",
+    "raza": "American Bobtail"
+  }
+]

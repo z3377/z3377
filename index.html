@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Michi - Main</title>
+
+  <link rel="icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+
+  <style>
+    .back-button.hide-on-index {
+      display: block;
+    }
+
+    /* Estilo para mostrar el botón en otras páginas */
+    .back-button:not(.hide-on-index) {
+      display: none;
+    }
+  </style>
+
+  <div id="navbar"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 espaciado-columnas">
+        <div class="centrado-vertical">
+          <!-- <h1>CUIDADO DEL GATO</h1> -->
+          <p style="font-size: 70px;
+          line-height: 83px;
+          margin-bottom: -3px;">CUIDADO DEL GATO</p>
+          <h3 style="margin-bottom: 29px;">Los mejores secretos para mantener feliz a tu gato</h3>
+          <h6 class="texto-justificado espacio-abajo">Desde el cultivo de hierva gatera hasta el suministro de una
+            variedad de jueguetes para gatos, hay muchas formas de enrriquecer la vida de su gato en interiores.</h6>
+          <a href="./index-2.html" class="btn square-btn Oswald"><strong>LEE MAS</strong></a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img class="centrado-vertical-2 tamanho-michi" src="./imagenes/pngwing.com.png" alt="Gato sin fondo">
+      </div>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('nav_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('footer_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('footer').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <!-- <script>
+    // Función para ir atrás en la historia del navegador
+    function goBack() {
+      window.history.back();
+    }
+  </script> -->
+
+  <script>
+    /* // Función para ir atrás en la historia del navegador
+    function goBack() {
+      window.history.back();
+    } */
+
+    // Verificar si estamos en la página index.html
+    if (window.location.pathname.endsWith('index.html')) {
+      document.querySelector('.back-button').classList.remove('hide-on-index');
+    }
+  </script>
+
+</body>
+
+</html>

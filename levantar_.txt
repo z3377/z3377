@@ -1,0 +1,8 @@
+navegar dentro de la ubicacion de tu proyecto para levantar el servidor de python
+
+sudo python -m http.server 22
+
+navegar dentro del directorio de ngrok para levantar el tunel de ngrok
+
+./ngrok http 22
+

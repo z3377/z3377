@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Mas Info</title>
+
+  <link rel="icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+  <style>
+    body {
+      /* background-color: #add5fa; */
+      /* background: linear-gradient(to right, #add5fa, #c3f8ff); */
+      background: linear-gradient(to right, #e8eaef, #96999e);
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .square-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 156px;
+      height: 42px;
+      border-radius: 0;
+      background-color: #343a40;
+      color: white;
+    }
+
+    .square-btn:hover {
+      background-color: white;
+      /* color: #7ecaec; */
+    }
+
+    .margen-arriba-btn {
+      margin-top: 25%;
+    }
+  </style>
+
+  <!--#include virtual="nav_.html" -->
+  <div id="navbar"></div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <!-- Contenido de la primera columna -->
+        <a id="enlaces" href="./acerca_gatos_.html">
+          <img id="imagen-michi-1" class="img-fluid img-thumbnail foto-cuadro-michi espacio-abajo"
+            src="" alt="Gato 1">
+          <h3 class="espacio-abajo">ACERCA DE LOS GATOS</h3>
+        </a>
+      </div>
+      <div class="col-md-4 text-center">
+        <!-- Contenido de la segunda columna -->
+        <a id="enlaces" href="./salud_.html">
+          <img id="imagen-michi-2" class="img-fluid img-thumbnail foto-cuadro-michi espacio-abajo"
+            src="" alt="Gato 1">
+          <h3 class="espacio-abajo">SALUD DEL GATO</h3>
+        </a>
+      </div>
+      <div class="col-md-4 text-center">
+        <!-- Contenido de la tercera columna -->
+        <a id="enlaces" href="./consejos_.html">
+          <img id="imagen-michi-3" class="img-fluid img-thumbnail foto-cuadro-michi espacio-abajo"
+            src="" alt="Gato 1">
+          <h3 class="espacio-abajo">CONSEJOS PARA TU GATO</h3>
+        </a>
+      </div>
+    </div>
+
+    <div class="row espacio-abajo margen-arriba-btn">
+      <div class="col-md-12">
+        <!-- Botón centrado -->
+        <a style="margin-right: auto; margin-left: auto;" href="./adoptame_.html"
+          class="btn square-btn"><strong>ADOPTAME</strong></a>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('nav_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('footer_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('footer').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <script>
+    // Función para ir atrás en la historia del navegador
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
+  <script type="application/javascript" src="./script.js"></script>
+
+</body>
+
+</html>

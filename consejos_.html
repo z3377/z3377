@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Consejos</title>
+  <link rel="icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./imagenes/cat_icon_125794.png" type="image/x-icon">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+
+  <style>
+    body {
+      /* background-color: #add5fa; */
+      /* background: linear-gradient(to right, #add5fa, #c3f8ff); */
+      background: linear-gradient(to right, #e8eaef, #96999e);
+      color: black;
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .square-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 156px;
+      height: 42px;
+      border-radius: 0;
+      background-color: #343a40;
+      color: white;
+    }
+
+    .square-btn:hover {
+      background-color: white;
+      /* color: #7ecaec; */
+    }
+
+    .margen-arriba-btn {
+      margin-top: 25%;
+    }
+  </style>
+
+  <div id="navbar"></div>
+
+  <div class="container espacio-abajo">
+
+    <h1 class="texto-centrado">Consejos para tu gato</h1>
+
+    <h3>01. Alimentación adecuada:</h3>
+    <p class="texto-justificado">Proporciona una dieta balanceada y de alta calidad que se ajuste a las necesidades
+      nutricionales de tu gato como carnívoro. Consulta con tu veterinario para determinar la cantidad y tipo de
+      alimento adecuado para su edad, peso y salud en general.</p>
+
+    <h3>02. Agua fresca:</h3>
+    <p class="texto-justificado">Asegúrate de que tu gato tenga acceso constante a agua fresca y limpia. Cambia el agua
+      regularmente para mantenerla libre de impurezas.</p>
+
+    <h3>03. Atención veterinaria:</h3>
+    <p class="texto-justificado">Programa visitas periódicas al veterinario para chequeos regulares y vacunas. Mantén al
+      día los registros de salud de tu gato y sigue las recomendaciones de cuidado de tu veterinario.</p>
+
+    <h3>04. Higiene y aseo:</h3>
+    <p class="texto-justificado">Cepilla el pelaje de tu gato regularmente para prevenir la formación de bolas de pelo y
+      mantener su pelaje en buen estado. Limpia la caja de arena a diario y cámbiala por completo al menos una vez a la
+      semana.</p>
+
+    <h3>05. Juguetes y estimulación:</h3>
+    <p class="texto-justificado">Proporciona una variedad de juguetes y actividades que mantengan a tu gato activo
+      física y mentalmente. Juegos interactivos, rascadores y rompecabezas para gatos son excelentes opciones.</p>
+
+    <h3>06. Tiempo de juego y atención:</h3>
+    <p class="texto-justificado">Dedica tiempo diariamente para jugar y relacionarte con tu gato. Juegos de persecución,
+      juguetes con plumas y ratones de juguete son excelentes formas de mantenerlo entretenido.</p>
+
+    <h3>07. Identificación y seguridad:</h3>
+    <p class="texto-justificado">Coloca un collar con una placa de identificación en tu gato y considera la opción de un
+      microchip. Asegura las ventanas y balcones para prevenir caídas y mantén objetos peligrosos fuera de su alcance.
+    </p>
+
+    <h3>08. Respeto al espacio:</h3>
+    <p class="texto-justificado">Respeta el espacio personal de tu gato y observa sus señales de comodidad. Proporciona
+      refugios tranquilos donde pueda retirarse cuando necesite descansar.</p>
+
+    <h3>09. Ambiente de rascado:</h3>
+    <p class="texto-justificado">Proporciona rascadores y postes adecuados para que tu gato pueda satisfacer su
+      necesidad natural de rascar y marcar territorio. Esto también ayuda a mantener sus uñas en buen estado.</p>
+
+    <h3>10. Amor y cuidado:</h3>
+    <p class="texto-justificado">Bríndale cariño, afecto y atención diaria. Acarícialo, habla con él y crea un vínculo
+      fuerte y positivo basado en el respeto mutuo.</p>
+
+  </div>
+
+  <div id="footer"></div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('nav_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('navbar').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <script>
+    // Utilizar fetch para cargar el contenido del otro archivo HTML
+    fetch('footer_.html')
+      .then(response => response.text())
+      .then(data => {
+        // Insertar el contenido en el div con id "contenido"
+        document.getElementById('footer').innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al cargar el archivo HTML:', error);
+      });
+  </script>
+
+  <script>
+    // Función para ir atrás en la historia del navegador
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+
+</body>
+
+</html>
